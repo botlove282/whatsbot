@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WhatsappWeb Bot
 // @namespace    https://botlove282.hopto.org
-// @version      0.4
+// @version      0.5
 // @description  WhatsappWeb Chat Bot
 // @author       BotLove282
 // @match        https://web.whatsapp.com/*
@@ -227,11 +227,12 @@ hab eine 6 in Mathe und bleibe sitzen…
 		let sendText
 
 		if (lastMsg.toUpperCase('@HELP') == '@HELP'){
-			sendText = `
-				Hey ${title}! Hier sind alle Befehle
+			sendText = 
+				`Hey ${title}! Hier sind alle Befehle
 
 				1. *@ZEIT*
-				2. *@WITZ*`
+				2. *@WITZ*
+				3. (WIP) @WETTER`
 		}
 
 		if (lastMsg.toUpperCase('@ZEIT') == '@ZEIT'){
