@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         WhatsappWeb Bot
 // @namespace    https://botlove282.hopto.org
-// @version      0.6
+// @version      0.7
 // @description  WhatsappWeb Chat Bot
 // @author       BotLove282
 // @match        https://web.whatsapp.com/*
