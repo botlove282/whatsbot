@@ -1,13 +1,11 @@
 // ==UserScript==
 // @name         WhatsappWeb Bot
 // @namespace    https://botlove282.hopto.org
-// @version      0.3
+// @version      0.4
 // @description  WhatsappWeb Chat Bot
 // @author       BotLove282
-// @updateURL    https://raw.githubusercontent.com/botlove282/whatsbot/master/botwhatsapp.js
-// @downloadURL  https://raw.githubusercontent.com/botlove282/whatsbot/master/botwhatsapp.js
 // @match        https://web.whatsapp.com/*
-// @grant        GM_xmlhttpRequest
+// @grant        none
 // ==/UserScript==
 
 console.log('Whatsapp Bot ready and operational');
@@ -253,7 +251,7 @@ hab eine 6 in Mathe und bleibe sitzen…
 
 		if (lastMsg.toUpperCase('@WETTER') == '@WETTER'){
 			sendText =
-				`Es tut mir leid` ${title}`, dieser Befehl ist noch WIP`
+				`Es tut mir leid ${title}, dieser Befehl ist noch WIP`
 		}
 
 		// that's sad, there's not to send back...
