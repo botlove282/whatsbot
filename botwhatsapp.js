@@ -6,6 +6,8 @@
 // @author       BotLove282
 // @match        https://web.whatsapp.com/*
 // @grant        GM_xmlhttpRequest
+// @updateURL   https://raw.githubusercontent.com/botlove282/whatsbot/master/botwhatsapp.js
+// @downloadURL https://raw.githubusercontent.com/botlove282/whatsbot/master/botwhatsapp.js
 // ==/UserScript==
 
 console.log('Whatsapp Bot ready and operational');
