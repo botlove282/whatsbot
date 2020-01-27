@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         WhatsappWeb Bot
-// @version      0.8
+// @version      0.9
 // @description  WhatsappWeb Chat Bot
 // @author       BotLove282
 // @match        https://web.whatsapp.com/*
@@ -252,8 +252,9 @@ hab eine 6 in Mathe und bleibe sitzen…
 		}
 
 		if (lastMsg.toUpperCase('@WETTER') == '@WETTER'){
-			sendText =
-				`Es tut mir leid ${title}, dieser Befehl ist noch WIP`
+			var arg = msg.split(" ")[1];
+			
+				`Es tut mir leid ${title}, dieser Befehl ist noch WIP. Test: ${arg}`
 		}
 
 		// that's sad, there's not to send back...
