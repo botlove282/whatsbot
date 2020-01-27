@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         WhatsappWeb Bot
-// @version      0.9
+// @version      1.1
 // @description  WhatsappWeb Chat Bot
 // @author       BotLove282
 // @match        https://web.whatsapp.com/*
@@ -228,7 +228,7 @@ hab eine 6 in Mathe und bleibe sitzen…
 		let sendText
 
 		if (lastMsg.toUpperCase('@HELP') == '@HELP'){
-			sendText = 
+			sendText =
 				`Hey ${title}! Hier sind alle Befehle
 
 				1. *@ZEIT*
@@ -253,7 +253,7 @@ hab eine 6 in Mathe und bleibe sitzen…
 
 		if (lastMsg.toUpperCase('@WETTER') == '@WETTER'){
 			var arg = msg.split(" ")[1];
-			
+
 				`Es tut mir leid ${title}, dieser Befehl ist noch WIP. Test: ${arg}`
 		}
 
