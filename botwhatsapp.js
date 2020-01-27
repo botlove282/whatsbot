@@ -1,11 +1,11 @@
 // ==UserScript==
 // @name         WhatsappWeb Bot
 // @namespace    https://botlove282.hopto.org
-// @version      0.5
+// @version      0.6
 // @description  WhatsappWeb Chat Bot
 // @author       BotLove282
 // @match        https://web.whatsapp.com/*
-// @grant        none
+// @grant        GM_xmlhttpRequest
 // ==/UserScript==
 
 console.log('Whatsapp Bot ready and operational');
