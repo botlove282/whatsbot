@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         WhatsappWeb Bot
-// @version      1.2
+// @version      1.3
 // @description  WhatsappWeb Chat Bot
 // @author       BotLove282
 // @match        https://web.whatsapp.com/*
