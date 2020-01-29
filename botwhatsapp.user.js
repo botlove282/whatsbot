@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         WhatsappWeb Bot
-// @version      1.4
+// @version      1.5
 // @description  WhatsappWeb Chat Bot
 // @author       BotLove282
 // @match        https://web.whatsapp.com/*
@@ -251,11 +251,7 @@ hab eine 6 in Mathe und bleibe sitzen…
 			sendText = jokeList[rand(jokeList.length)];
 		}
 
-		if (lastMsg.toUpperCase('@WETTER') == '@WETTER'){
-			var arg = lastMsg.split(" ")[1];
 
-				`Es tut mir leid ${title}, dieser Befehl ist noch WIP. Test: ${arg}`
-		}
 
 		// that's sad, there's not to send back...
 		if (!sendText) {
